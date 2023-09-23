@@ -6,19 +6,23 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 - A aplicação web está em execução e conectada a um banco de dados.
 - O ambiente de teste está configurado no Postman.
 - Conexão Wi-Fi está ativa.
+  <img width="647" alt="image" src="https://github.com/renanribeir0/PerdaDeSincronismoDeBancoDeDados/assets/110369271/3b60390b-784c-475b-aca5-3cdbaaa49813">
+
 
 ## Procedimento de Teste
 1. **Preparação**: Certifique-se de que o Postman está aberto e o ambiente de teste está configurado.
 2. **Acesso à Página Web**: Faça uma solicitação GET para a página da web a ser testada.
 3. **Captura de Estado Inicial**: Capture uma captura de tela da página da web em seu estado normal.
 4. **Simulação de Perda de Conexão Wi-Fi**:
-   - Desative a conexão Wi-Fi em seu dispositivo (ou utilize uma ferramenta de simulação de perda de conexão).
+   - Desative a conexão Wi-Fi em seu dispositivo.
    - Execute a mesma solicitação GET novamente.
-5. **Captura de Estado Após a Perda de Conexão**: Capture uma captura de tela da página da web após a simulação de perda de conexão Wi-Fi.
-6. **Reativação da Conexão Wi-Fi**:
+     <img width="647" alt="image" src="https://github.com/renanribeir0/PerdaDeSincronismoDeBancoDeDados/assets/110369271/90f26edc-36a0-4cbe-a6d1-2590efc2b7c1">
+     
+5. **Reativação da Conexão Wi-Fi**:
    - Reative a conexão Wi-Fi em seu dispositivo.
    - Execute a mesma solicitação GET novamente.
-7. **Captura de Estado Após a Reconexão**: Capture uma captura de tela da página da web após a reconexão.
+     <img width="646" alt="image" src="https://github.com/renanribeir0/PerdaDeSincronismoDeBancoDeDados/assets/110369271/116b31d0-8c85-4561-b427-4b3880b8762f">
+
 
 ## Pós-Condição
 - As capturas de tela e resultados dos testes são registrados.
@@ -30,7 +34,10 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 
 ## Resultados Obtidos
 - As capturas de tela estão anexadas a este documento.
-- Os resultados do teste indicam que a aplicação web responde de acordo com as expectativas, mostrando uma mensagem de erro durante a perda de conexão e restaurando a funcionalidade após a reconexão.
+- Os resultados do teste indicam que a aplicação web responde de acordo com as expectativas, mostrando a seguinte mensagem "{
+    "statusCode": 500,
+    "message": "Internal server error"
+}" de erro durante a perda de conexão e restaurando a funcionalidade após a reconexão.
 
 ### Capturas de Tela
 - [Captura de Tela 1: Estado Inicial](url_da_captura_de_tela_1)
