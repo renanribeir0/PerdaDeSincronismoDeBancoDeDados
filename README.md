@@ -25,7 +25,7 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 
 
 ## Pós-Condição
-- As capturas de tela e resultados dos testes são registrados.
+A plicação web está em um estado funcional normal, com a página exibindo os dados corretamente, e o tempo de resposta diminuiu de 461.66 ms, para 1504.71 ms após retornar ao estado inicial.
 
 ## Resultados Esperados
 - No estado inicial, a página da web deve ser carregada corretamente e exibir os dados do banco de dados.
@@ -37,7 +37,6 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 - Estado Inicial: 461.66 ms
 - Estado Após a Perda de Conexão: 30.82 ms
 - Estado Após a Reconexão: 1504.71 ms
-- 
 - Os resultados do teste indicam que a aplicação web responde de acordo com as expectativas, mostrando a seguinte mensagem "{
     "statusCode": 500,
     "message": "Internal server error"
