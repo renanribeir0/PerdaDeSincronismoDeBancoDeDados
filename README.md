@@ -1,5 +1,3 @@
-# Teste de Perda de Sincronismo de Banco de Dados em Página da Web usando Postman
-
 Este documento descreve o procedimento para realizar um teste de perda de sincronismo de banco de dados em uma página da web usando o Postman. O teste simulará uma perda de conexão Wi-Fi e avaliará o comportamento da aplicação web.
 
 ## Pré-Condição
