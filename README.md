@@ -34,9 +34,9 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 
 ## Resultados Obtidos
 - Os resultados do teste indicam que a aplicação web responde de acordo com as expectativas, mostrando uma mensagem de erro durante a perda de conexão e restaurando a funcionalidade após a reconexão. Os tempos de resposta registrados foram os seguintes:
-- Estado Inicial: X segundos
-- Estado Após a Perda de Conexão: Y segundos
-- Estado Após a Reconexão: Z segundos
+- Estado Inicial: 461.66 ms
+- Estado Após a Perda de Conexão: 30.82 ms
+- Estado Após a Reconexão: 1504.71 ms
 - 
 - Os resultados do teste indicam que a aplicação web responde de acordo com as expectativas, mostrando a seguinte mensagem "{
     "statusCode": 500,
