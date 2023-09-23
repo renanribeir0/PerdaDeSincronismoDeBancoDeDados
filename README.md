@@ -33,13 +33,13 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 - Após a reconexão, a página da web deve recuperar a funcionalidade normal e exibir os dados corretamente.
 
 ## Resultados Obtidos
-- As capturas de tela estão anexadas a este documento.
+- Os resultados do teste indicam que a aplicação web responde de acordo com as expectativas, mostrando uma mensagem de erro durante a perda de conexão e restaurando a funcionalidade após a reconexão. Os tempos de resposta registrados foram os seguintes:
+- Estado Inicial: X segundos
+- Estado Após a Perda de Conexão: Y segundos
+- Estado Após a Reconexão: Z segundos
+- 
 - Os resultados do teste indicam que a aplicação web responde de acordo com as expectativas, mostrando a seguinte mensagem "{
     "statusCode": 500,
     "message": "Internal server error"
 }" de erro durante a perda de conexão e restaurando a funcionalidade após a reconexão.
 
-### Capturas de Tela
-- [Captura de Tela 1: Estado Inicial](url_da_captura_de_tela_1)
-- [Captura de Tela 2: Estado Após a Perda de Conexão](url_da_captura_de_tela_2)
-- [Captura de Tela 3: Estado Após a Reconexão](url_da_captura_de_tela_3)
