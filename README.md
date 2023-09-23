@@ -13,8 +13,7 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 ## Procedimento de Teste
 1. **Preparação**: Certifique-se de que o Postman está aberto e o ambiente de teste está configurado.
 2. **Acesso à Página Web**: Faça uma solicitação GET para a página web "http://localhost:3001/iniciativas" .
-3. **Captura de Estado Inicial**: Capture uma captura de tela da página da web em seu estado normal.
-4. **Simulação de Perda de Conexão Wi-Fi**:
+3. **Simulação de Perda de Conexão Wi-Fi**:
    - Desative a conexão Wi-Fi em seu dispositivo.
    - Execute a mesma solicitação GET novamente.
      <img width="647" alt="image" src="https://github.com/renanribeir0/PerdaDeSincronismoDeBancoDeDados/assets/110369271/90f26edc-36a0-4cbe-a6d1-2590efc2b7c1">
