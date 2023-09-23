@@ -6,6 +6,7 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 - A aplicação web está em execução e conectada a um banco de dados.
 - O ambiente de teste está configurado no Postman.
 - Conexão Wi-Fi está ativa.
+  
   <img width="647" alt="image" src="https://github.com/renanribeir0/PerdaDeSincronismoDeBancoDeDados/assets/110369271/3b60390b-784c-475b-aca5-3cdbaaa49813">
 
 
