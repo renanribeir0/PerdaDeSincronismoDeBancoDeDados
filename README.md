@@ -12,7 +12,7 @@ Este documento descreve o procedimento para realizar um teste de perda de sincro
 
 ## Procedimento de Teste
 1. **Preparação**: Certifique-se de que o Postman está aberto e o ambiente de teste está configurado.
-2. **Acesso à Página Web**: Faça uma solicitação GET para a página da web a ser testada.
+2. **Acesso à Página Web**: http://localhost:3001/iniciativas e faça uma solicitação GET para a página da web a ser testada.
 3. **Captura de Estado Inicial**: Capture uma captura de tela da página da web em seu estado normal.
 4. **Simulação de Perda de Conexão Wi-Fi**:
    - Desative a conexão Wi-Fi em seu dispositivo.
